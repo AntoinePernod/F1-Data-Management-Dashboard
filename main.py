@@ -36,6 +36,7 @@ plt.tight_layout()
 plt.show()
 
 
+
 ### LAP TIME COMPARISON ###
 drv1 = session.laps.pick_drivers('LEC').pick_fastest()
 drv2 = session.laps.pick_drivers('HAM').pick_fastest()
