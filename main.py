@@ -55,6 +55,7 @@ ax2.legend()
 plt.tight_layout()
 plt.show()
 
+
 ############## DASHBOARD SETUP ##############
 
 st.set_page_config(page_title="📊 F1 Data Dashboard", layout="wide")
