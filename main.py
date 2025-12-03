@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 # f1.Cache.enable_cache('fastf1-cache')
 f1.plotting.setup_mpl(mpl_timedelta_support=False, color_scheme='fastf1')
 
+
 session = f1.get_session(2025, 'Austria', 'Race')
 session.load(telemetry=True, weather=True)
 
